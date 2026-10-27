@@ -1,0 +1,13 @@
+BTCS2101 Pulse Student–Faculty Portal
+
+1. Install Python 3.
+2. Open this folder in VS Code.
+3. Install dependencies: python -m pip install -r requirements.txt
+4. In PowerShell, set an administrator account before first launch:
+   $env:PULSE_ADMIN_USERNAME = "choose-an-admin-username"
+   $env:PULSE_ADMIN_PASSWORD = "choose-a-strong-password"
+   $env:SECRET_KEY = [guid]::NewGuid().ToString()
+5. Run: python app.py
+6. Open http://127.0.0.1:5000
+
+Do not publish passwords, .env files, local databases, or real student data.
